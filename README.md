@@ -1,2 +1,2 @@
 # mineralsgame
-[Demo](https://duckduckgo.com)
+[Demo](https://georgiancoder.github.io/mineralsgame/)
