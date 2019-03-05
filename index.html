@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+</head>
+<body>
+	<img src="sprites/bottle.png" id="bottle" class="hidden">
+
+	<img src="sprites/bird 1.png" class="hidden" id="chiti1">
+	<img src="sprites/bird 2.png" class="hidden" id="chiti2">
+	<img src="sprites/cloud 1.png" class="hidden" id="cloud1">
+	<img src="sprites/cloud 2.png" class="hidden" id="cloud2">
+	<img src="sprites/snowboard.png" class="hidden" id="snowboarder">
+	<img src="sprites/landscape.png" class="hidden" id="bgimg">
+	<img src="sprites/tree.png" class="hidden" id="tree">
+	<img src="sprites/timerbg.png" class="hidden" id="timerbg">
+
+
+	<img src="sprites/timeenc.png" class="hidden" id="timeenc">
+	<img src="sprites/timedec.png" class="hidden" id="timedec">
+
+	<img src="sprites/x2.png" class="hidden" id="x2">
+	<img src="sprites/mx2.png" class="hidden" id="mx2">
+
+	<img src="sprites/1.png" id="kalcium" class="hidden" data-name="kalcium" data-score="10">
+	<img src="sprites/2.png" id="magnium" class="hidden" data-name="magnium" data-score="9">
+	<img src="sprites/3.png" id="kalium" class="hidden" data-name="kalium" data-score="8">
+	<img src="sprites/4.png" id="natrium" class="hidden" data-name="natrium" data-score="7">
+	<img src="sprites/5.png" id="hydrokarbonat" class="hidden" data-name="hydrokarbonat" data-score="5">
+	<img src="sprites/6.png" id="qlorid" class="hidden" data-name="qlorid" data-score="3">
+	<img src="sprites/7.png" id="sulfatebi" class="hidden" data-name="sulfatebi" data-score="1">
+	
+
+	<div class="game">
+		<canvas id="bg" width="1000" height="800"></canvas>
+		<canvas id="c" width="1000" height="800">your browser does not support canvas</canvas>
+		<canvas id="c2" width="1000" height="800"></canvas>
+		<button id="startgame" class="startgame"><i>Start</i> <span></span></button>
+		<button class="nextLevel" id="nextLevel"><i>next wave</i> <span></span></button>
+		<img src="sprites/timesup.png" id="timesup">
+		<div class="b" id="b">
+			<div class="qulebi" id="qulebi">000000</div>
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//markme.ge/game/"><img src="sprites/share.png"></a>
+		</div>
+		<div class="popup" id="popup">
+			<form>
+				<input type="text" name="name" placeholder="Enter Your Name">
+				<input type="submit" value="">
+			</form>
+		</div>
+		<img src="sprites/score.png" id="score">
+		<div id="liderboard">
+			<img src="sprites/top10.png">
+			<div class="content">
+				<ul>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>1</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>2</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>3</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>4</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>5</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>6</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>7</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>8</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>9</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+					<li>
+						<div class="cont">
+							<div><span class="num"><span>10</span></span> <span>Name</span></div>  <span class="score">123</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<canvas id="screenshot" width="1000" height="800" class="hidden"></canvas>
+
+	<script src="demo2.js"></script>
+</body>
+</html>
